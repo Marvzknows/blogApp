@@ -1,0 +1,150 @@
+body {
+  font-family: Inter, sans-serif;
+  font-family: Readex Pro, sans-serif;
+  background-color: #f8fafb;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin: 0 5px;
+}
+header ul li a {
+  font-weight: 600;
+}
+header .nav-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.header-title {
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.left-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.left-content .laptop-container {
+  width: 100%;
+  height: 65%;
+  position: relative;
+  border-radius: 10px;
+}
+.left-content .laptop-container img {
+  height: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.left-content .laptop-container .img-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 5px;
+}
+.left-content .watch-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 35%;
+  position: relative;
+  overflow: hidden;
+}
+.left-content .watch-container img {
+  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.left-content .watch-container .img-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 5px;
+}
+
+.right-content {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.right-content .phone-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: white;
+}
+.right-content .phone-container img {
+  width: 100%;
+  height: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.right-content .phone-container .img-text {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-content .tablet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: white;
+}
+.right-content img {
+  width: 100%;
+  height: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.right-content .img-text {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-content {
+  width: 100%;
+}
+footer .footer-content .footer-content-title {
+  padding: 8px 4px;
+}
+footer .footer-content p {
+  font-size: 12px;
+}/*# sourceMappingURL=styles.css.map */
